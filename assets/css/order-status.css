@@ -1,0 +1,17 @@
+.order-status.status-box{
+
+background:#fb9806;
+color: #fff;
+    
+}
+.order-status.status-deliver{
+
+    background: #008e32;
+color: #fff;
+
+}
+
+#toplevel_page_novin-setting-ordertracking .wp-menu-image img {
+   padding: 3px 0 0 0;
+    width: 28px;
+}

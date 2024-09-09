@@ -1,0 +1,36 @@
+.tooltiip {
+  position: relative;
+  display: inline-block;
+}
+.tooltiip .tooltiiptext {
+   -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+visibility: hidden;
+    width: 237px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: -63%;
+    margin-left: -88px;
+}
+.tooltiip .tooltiiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.tooltiip:hover .tooltiiptext {
+  visibility: visible;
+}
